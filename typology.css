@@ -1,0 +1,23 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    font-size: xx-large;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+input:nth-child(3) {
+    font-size: large;
+    color: white;
+    
+  }
+
+  input:nth-child(5) {
+    font-size: medium;
+    color: white;
+    
+  }

@@ -1,0 +1,19 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100vw;
+    height: 100vh;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 5;
+}
+
+footer{
+    background-color: indigo;
+    flex-grow: 1;
+}
+

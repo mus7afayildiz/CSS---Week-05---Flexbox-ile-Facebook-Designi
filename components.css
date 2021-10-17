@@ -1,0 +1,35 @@
+section{
+    background-color: rgb(235, 247, 247);
+}
+
+header{
+    flex-grow: 2;
+}
+
+aside{
+    flex-grow: 1;
+}
+
+#inputSection{
+    background-color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: grey;
+}
+
+input:nth-child(3) {
+    background: blue;
+
+}
+
+input:nth-child(5) {
+    background-color: green;
+    
+}
+
+#inputSection, input{
+    margin: 6%;
+    border-radius: 3%;
+}
+
