@@ -2,18 +2,41 @@ main{
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    width: 100vw;
-    height: 100vh;
+    width: 98vw;
+    height: 97vh;
 }
 
 section{
     display: flex;
     flex-direction: row;
-    flex-grow: 5;
+}
+
+header{
+    margin: 10%;
+}
+
+aside{
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 3%;
 }
 
 footer{
-    background-color: indigo;
-    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
 }
 
+.footerBase{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin: 2vh;
+}

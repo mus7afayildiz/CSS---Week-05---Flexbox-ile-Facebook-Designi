@@ -1,0 +1,17 @@
+
+/*footer*/
+
+footer{
+    background-color: rgba(255,255,255,255);
+}
+
+/*aside*/
+
+input:nth-child(3) {
+    background: #1877f2;
+}
+
+input:nth-child(5) {
+    background-color: #42b72a;
+    width: 10vw;
+}

@@ -1,7 +1,7 @@
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: blue;
-    font-size: xx-large;
+    color: #1877f2;
+    font-size:7vh;
 }
 
 h3{
@@ -13,11 +13,16 @@ h3{
 input:nth-child(3) {
     font-size: large;
     color: white;
-    
-  }
+}
+
+  input:nth-child(4) {
+    color: #2f84f3;
+}
 
   input:nth-child(5) {
-    font-size: medium;
     color: white;
-    
-  }
+}
+
+  .languages ul li,.baglantilar ul li,.copyrigt p{
+    font-size: 2vh;
+}
